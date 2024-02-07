@@ -1,6 +1,6 @@
 # AES-Killer-Pro
 AES KillerPro 工具对AES-Killer工具的一些功能增强优化，主要如下：
-- AES加解密填充方式，原始只支持PKCS5，现支持一下方式：
+- AES加解密填充方式，原始只支持PKCS5，现支持以下方式：
   - AES/CBC/NoPadding
   - AES/CBC/PKCS5Padding
   - AES/CBC/PKCS7Padding
