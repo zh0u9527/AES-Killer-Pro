@@ -7,9 +7,13 @@ AES KillerPro 工具对AES-Killer工具的一些功能增强优化，主要如�
   - AES/ECB/NoPadding
   - AES/ECB/PKCS5Padding
   - AES/ECB/PKCS7Padding
+  - 由于aes/ecb模式不需要iv，所以如果选择aes/ecb模式的时候iv填入任意不为空的字符串即可
 - 请求体/响应体字符替换
   - 有些网址会将加密的请求体字符串使用引号引起来，这时便可以使用字符替换功能进行替换；可以同时多对多的字符替换，注意：当需要替换的字符个数大于替换的字符长度时，这时的替换是使用替换字符的最后一个字符来替换需要替换的字符。
 - 明文/密文加解密
+
+
+AES-Killer的使用：https://n00b.sh/posts/aes_killer-usage-guide/
 
 AES-KillerPro：
 ![image](https://github.com/zh0u9527/AES-Killer-Pro/assets/92257130/8be47538-6271-40b9-aa27-ec5ff6cb79f2)
